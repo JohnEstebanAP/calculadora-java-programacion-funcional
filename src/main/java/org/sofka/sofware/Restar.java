@@ -3,6 +3,8 @@ package org.sofka.sofware;
 import org.sofka.sofware.utilities.Start;
 
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Restar extends Start {
 
@@ -19,11 +21,13 @@ public class Restar extends Start {
         restar();
     }
 
-    public void restar(){
-      Integer  restaLista1 = list1.stream().reduce(0, (acumulador, numero) -> acumulador+numero);
-      Integer  restaLista2 = list2.stream().reduce(0, (acumulador, numero) -> acumulador+numero);
-      Integer totalResta = restaLista1 + restaLista2;
-
-      logMessage5(list1.toString(),"+", list2.toString(), "=", totalResta.toString());
+    public Boolean restar(){
+        if(list1.size() == list2.size()){
+            var totalResta= IntStream.range(0, list1.size()).mapToObj((index) -> (list1.get(index) - list2.get(index))).toList();
+            logMessage5(list1.toString(),"-", list2.toString(), "=", totalResta.toString());
+            return true;
+        }
+        log("La cantidad de elementos de la lista 1 debe ser igual a la cantidad de la lista 2 ");
+        return false;
     }
 }

@@ -30,8 +30,8 @@ public class Main extends Menu {
      * @since [1.2.0]
      */
     public static void main(String[] args) {
-        List<Integer> list1 = List.of(2,35,44,8,4);
-        List<Integer> list2 = List.of(2,5,44,2,6);
+        List<Integer> list1 = List.of(2,35,44,8,44);
+        List<Integer> list2 = List.of(2,5,44,0,6);
 
         puntos(new Sumar(list1, list2));
         puntos(new Restar(list1, list2));
@@ -53,7 +53,7 @@ public class Main extends Menu {
         List<String> elemenst = new ArrayList<>();
 
         final String SEPARATOR = "--------------------------------------------------------------------------";
-        final String MENU = " ********************************* Calculadora álgebra lineal *********************************";
+        final String MENU = " ********************************* Calculadora *********************************";
         final String MESSAGE = "  Por favor seleccione la opción que desea ejecutar";
         final String OPCIONES = "  ingrese un número para indicar un opción: ";
 

@@ -16,16 +16,15 @@ public class Maximo extends Start {
 
   @Override
   public void start() {
-    minimo();
+    maximo();
   }
-
-  public void minimo() {
+  public void maximo() {
     var lista1 = list1.stream().max(Integer::compare);
     var lista2 = list2.stream().max((num1, num2) -> num1.compareTo(num2));
     List<Integer> lista3 = List.of(lista1.get().intValue(), lista2.get().intValue());
 
     var maximo = lista3.stream().max(Integer::compare);
 
-    logMessage4(list1.toString(), list2.toString(), "=", maximo.get().toString());
+    logMessage4(list1.toString(), list2.toString(), "= El número máximo entre las dos litas es el", maximo.get().toString());
   }
 }

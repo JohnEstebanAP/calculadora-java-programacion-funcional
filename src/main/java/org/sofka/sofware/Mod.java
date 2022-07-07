@@ -3,6 +3,7 @@ package org.sofka.sofware;
 import org.sofka.sofware.utilities.Start;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class Mod extends Start {
 
@@ -19,14 +20,18 @@ public class Mod extends Start {
     mod();
   }
 
-  public void mod() {
-    Integer lista1 = list1.stream().reduce(0, (acumulador, num) -> acumulador + num);
-    Integer lista2 = list2.stream().reduce(0, (acumulador, num) -> acumulador + num);
-    if (lista2 != 0) {
-      Double total = lista1.doubleValue() % lista2.doubleValue();
+  public boolean mod() {
+    if (list1.size() == list2.size()) {
+      var total = IntStream.range(0, list1.size()).mapToObj((index) -> {
+        if (!list2.get(index).equals(0)) {
+          return (list1.get(index) % list2.get(index));
+        }
+        return "No se pude dividir por 0";
+      }).toList();
       logMessage5(list1.toString(), "%", list2.toString(), "=", total.toString());
-    } else {
-      logMessage5(list1.toString(), "%", list2.toString(), "=", "No se pude dividir por 0");
+      return true;
     }
+    log("La cantidad de elementos de la lista 1 debe ser igual a la cantidad de la lista 2 ");
+    return false;
   }
 }

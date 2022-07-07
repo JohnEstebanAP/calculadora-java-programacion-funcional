@@ -26,6 +26,6 @@ public class Minimo extends Start {
 
     var minimo = lista3.stream().min(Integer::compare);
 
-    logMessage4(list1.toString(), list2.toString(), "=", minimo.get().toString());
+    logMessage4(list1.toString(), list2.toString(), "= El número mínimo entre las dos litas es el ", minimo.get().toString());
   }
 }

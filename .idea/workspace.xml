@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2357f2a1-ec38-4e7b-9a38-ae94fd6df0c3" name="Changes" comment="calculadora com programación funcional">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Dividir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Maximo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Minimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Mod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Multiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Restar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Sumar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/utilities/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/utilities/MyPrintAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/utilities/Start.java" afterDir="false" />
+    <list default="true" id="2357f2a1-ec38-4e7b-9a38-ae94fd6df0c3" name="Changes" comment="calculadora com programación funcional, toca refactorizar todo el código">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Dividir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Dividir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Maximo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Maximo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Minimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Minimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Mod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Mod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Multiplicar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Multiplicar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Restar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Restar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Sumar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sofka/sofware/Sumar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657218599498</updated>
     </task>
+    <task id="LOCAL-00001" summary="calculadora com programación funcional, toca refactorizar todo el código">
+      <created>1657232554157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657232554157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calculadora com programación funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="calculadora com programación funcional" />
+    <MESSAGE value="calculadora com programación funcional, toca refactorizar todo el código" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculadora com programación funcional, toca refactorizar todo el código" />
   </component>
 </project>
